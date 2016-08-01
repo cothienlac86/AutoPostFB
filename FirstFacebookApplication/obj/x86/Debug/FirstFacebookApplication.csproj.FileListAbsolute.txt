@@ -1,0 +1,12 @@
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.FacebookLoginDialog.resources
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.Properties.Resources.resources
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.csproj.GenerateResource.Cache
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\bin\Debug\FirstFacebookApplication.exe
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\bin\Debug\FirstFacebookApplication.pdb
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\bin\Debug\Facebook.dll
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\bin\Debug\Facebook.xml
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.exe
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.pdb
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.csprojResolveAssemblyReference.cache
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\bin\Debug\FirstFacebookApplication.exe.config
+D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.frmMain.resources
