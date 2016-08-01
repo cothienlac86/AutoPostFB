@@ -1,0 +1,17 @@
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\AutoPostFb.csprojResolveAssemblyReference.cache
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\Boundary.AutoPostFb.frmLoginDlg.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\Boundary.AutoPostFb.frmMain.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\AutoPostFb.Properties.Resources.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\AutoPostFb.csproj.GenerateResource.Cache
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\bin\Debug\AutoPostFb.pdb
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\bin\Debug\Facebook.dll
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\bin\Debug\Facebook.xml
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\AutoPostFb.csprojResolveAssemblyReference.cache
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\Boundary.AutoPostFb.frmLoginDlg.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\Boundary.AutoPostFb.frmMain.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\AutoPostFb.Properties.Resources.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\AutoPostFb.csproj.GenerateResource.Cache
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\AutoPostFb.pdb
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\bin\Debug\AutoPostFb.exe.config
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\bin\Debug\AutoPostFb.exe
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\AutoPostFb\obj\x86\Debug\AutoPostFb.exe
