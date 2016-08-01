@@ -1,5 +1,4 @@
-﻿
-namespace FirstFacebookApplication
+﻿namespace Boundary.AutoPostFb
 {
     using System;
     using System.Windows.Forms;
@@ -36,7 +35,7 @@ namespace FirstFacebookApplication
 
         private void btnFacebookLogin_Click(object sender, EventArgs e)
         {
-            var fbLoginDialog = new FacebookLoginDialog(AppId, ExtendedPermissions);
+            var fbLoginDialog = new frmLoginDlg(AppId, ExtendedPermissions);
             fbLoginDialog.ShowDialog();
             DisplayAppropriateMessage(fbLoginDialog.FacebookOAuthResult);
         }

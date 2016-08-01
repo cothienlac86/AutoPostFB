@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Boundary.AutoPostFb;
+using System;
 using System.Windows.Forms;
 
-namespace FirstFacebookApplication
+namespace AutoPostFb
 {
     static class Program
     {

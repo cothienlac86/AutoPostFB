@@ -1,4 +1,4 @@
-﻿namespace FirstFacebookApplication
+﻿namespace Boundary.AutoPostFb
 {
     partial class frmMain
     {

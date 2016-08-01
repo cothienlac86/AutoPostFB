@@ -10,3 +10,7 @@ D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFaceb
 D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.csprojResolveAssemblyReference.cache
 D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\bin\Debug\FirstFacebookApplication.exe.config
 D:\Resources\SamplesCode\C#\FB-CSharp-SDK-First-FB-Application-master\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.frmMain.resources
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\bin\Debug\FirstFacebookApplication.exe.config
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.exe
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\obj\x86\Debug\FirstFacebookApplication.pdb
+D:\Projects\AutoPostFb\SourceCode\AutoPostFb\trunk\FirstFacebookApplication\bin\Debug\AutoPostFB.exe.config

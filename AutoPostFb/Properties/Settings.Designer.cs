@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FirstFacebookApplication.Properties {
+namespace AutoPostFb.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

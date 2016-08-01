@@ -8,13 +8,13 @@
     <ProjectGuid>{8D8C4009-847B-4208-978F-F35B5CF2247B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FirstFacebookApplication</RootNamespace>
-    <AssemblyName>FirstFacebookApplication</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>AutoPostFb</RootNamespace>
+    <AssemblyName>AutoPostFb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\FB-CSharp-SDK-First-FB-Application\</SolutionDir>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\AutoPostFb\</SolutionDir>
     <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AutoPostFb.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
       <HintPath>..\packages\Facebook.7.0.6\lib\net40-client\Facebook.dll</HintPath>
@@ -55,25 +58,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FacebookLoginDialog.cs">
+    <Compile Include="Boundary\frmLoginDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FacebookLoginDialog.Designer.cs">
-      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    <Compile Include="Boundary\frmLoginDialog.Designer.cs">
+      <DependentUpon>frmLoginDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Boundary\frmMainControl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Boundary\frmMainControl.Designer.cs">
+      <DependentUpon>frmMainControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FacebookLoginDialog.resx">
-      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    <EmbeddedResource Include="Boundary\frmLoginDialog.resx">
+      <DependentUpon>frmLoginDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Boundary\frmMainControl.resx">
+      <DependentUpon>frmMainControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +99,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

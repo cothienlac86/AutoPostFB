@@ -1,24 +1,24 @@
 ﻿
-namespace FirstFacebookApplication
+namespace Boundary.AutoPostFb
 {
     using System;
     using System.Dynamic;
     using System.Windows.Forms;
     using Facebook;
 
-    public partial class FacebookLoginDialog : Form
+    public partial class frmLoginDlg : Form
     {
         private readonly Uri _loginUrl;
         protected readonly FacebookClient _fb;
 
         public FacebookOAuthResult FacebookOAuthResult { get; private set; }
 
-        public FacebookLoginDialog(string appId, string extendedPermissions)
+        public frmLoginDlg(string appId, string extendedPermissions)
             : this(new FacebookClient(), appId, extendedPermissions)
         {
         }
 
-        public FacebookLoginDialog(FacebookClient fb, string appId, string extendedPermissions)
+        public frmLoginDlg(FacebookClient fb, string appId, string extendedPermissions)
         {
             if (fb == null)
                 throw new ArgumentNullException("fb");
