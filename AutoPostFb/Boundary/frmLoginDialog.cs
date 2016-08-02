@@ -6,10 +6,12 @@ namespace Boundary.AutoPostFb
     using System.Windows.Forms;
     using Facebook;
 
+
     public partial class frmLoginDlg : Form
     {
-        private readonly Uri _loginUrl;
         protected readonly FacebookClient _fb;
+        private readonly Uri _loginUrl;
+
 
         public FacebookOAuthResult FacebookOAuthResult { get; private set; }
 

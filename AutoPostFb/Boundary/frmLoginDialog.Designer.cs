@@ -1,5 +1,8 @@
-﻿namespace Boundary.AutoPostFb
+﻿
+
+namespace Boundary.AutoPostFb
 {
+    using Helper.ExtBrowswer;
     partial class frmLoginDlg
     {
         /// <summary>
@@ -28,7 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.webBrowser = new System.Windows.Forms.WebBrowser();
+            this.webBrowser = new ExtendedWebBrowser();
             this.SuspendLayout();
             //
             // webBrowser
@@ -58,9 +61,8 @@
             this.ResumeLayout(false);
 
         }
-
         #endregion
 
-        private System.Windows.Forms.WebBrowser webBrowser;
+        private ExtendedWebBrowser webBrowser;
     }
 }
