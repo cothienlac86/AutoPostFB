@@ -1,5 +1,4 @@
-﻿
-namespace Boundary.AutoPostFb
+﻿namespace Boundary.AutoPostFb
 {
     using System;
     using System.Dynamic;

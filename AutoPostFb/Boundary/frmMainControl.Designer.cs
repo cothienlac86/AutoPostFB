@@ -35,8 +35,19 @@
             this.lblUserInfos = new System.Windows.Forms.Label();
             this.pcbLogo = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnFacebookLogin
@@ -103,10 +114,78 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.tabControl1);
             this.panel2.Location = new System.Drawing.Point(3, 57);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(975, 514);
             this.panel2.TabIndex = 5;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(3, 3);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(969, 499);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.panel3);
+            this.tabPage1.Location = new System.Drawing.Point(4, 26);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(961, 469);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 26);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(961, 469);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Location = new System.Drawing.Point(6, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(206, 460);
+            this.panel3.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 27);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(151, 25);
+            this.textBox1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 17);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "FB Group:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(169, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(34, 25);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "OK";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmMain
             // 
@@ -124,6 +203,11 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -136,6 +220,13 @@
         private System.Windows.Forms.Label lbInfosHolder;
         private System.Windows.Forms.Label lblUserInfos;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

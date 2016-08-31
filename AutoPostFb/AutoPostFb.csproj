@@ -42,8 +42,18 @@
     <StartupObject>AutoPostFb.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.7.5.1, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214" />
+    <Reference Include="Awesomium.Windows.Forms, Version=1.7.5.1, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86" />
     <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
       <HintPath>..\packages\Facebook.7.0.6\lib\net40-client\Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -80,7 +90,7 @@
       <DependentUpon>frmMainControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
