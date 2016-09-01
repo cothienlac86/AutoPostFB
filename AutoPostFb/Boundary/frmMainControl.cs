@@ -8,8 +8,8 @@
 
     public partial class frmMain : Form
     {
-        private const string AppId = "1571870129775473";
-        private const string ExtendedPermissions = "user_friends, public_profile, user_managed_groups";
+        private const string AppId = "1492851824272497";
+        private const string ExtendedPermissions = "email, public_profile, user_friends";
         private string _accessToken;
         //private FacebookClient _fbClient = null;
 
@@ -78,19 +78,11 @@
         {
             try
             {
-                if (!string.IsNullOrEmpty(_accessToken))
-                {
-                    var fb = new FacebookClient(_accessToken);
-                    dynamic userInfo = fb.Get("/me");
-                    var userId = userInfo.id;
-                    var userName = userInfo.name;
-                    dynamic resultsFBFQL = fb.Get("fql", new
-                    {
-                        q = string.Format("SELECT uid, name, pic_square,music FROM user WHERE uid = {0} OR uid IN (SELECT uid2 FROM friend WHERE uid1 = {0}) order by name", userId)
-                    });
-                    JObject o = JObject.Parse(Convert.ToString(resultsFBFQL));
-                    Console.WriteLine(o);
-                }
+                if (string.IsNullOrEmpty(_accessToken)) return;
+                //ThanhTau86
+                var _fbClient = new FacebookClient(_accessToken);
+                dynamic result = _fbClient.Get("/1492851824272497?fields=group");
+                var name = string.IsNullOrEmpty(result.name) ? "User not found...!" : result.name;
             }
             catch
             {
